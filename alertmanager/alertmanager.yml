@@ -1,0 +1,9 @@
+receivers:
+- name: PagerDuty
+  pagerduty_configs:
+  - service_key: INSERT_PAGERDUTY_INTEGRATION_KEY
+
+route:
+  receiver: 'PagerDuty'
+  repeat_interval: 4h
+  group_by: [ alertname ]
