@@ -13,7 +13,7 @@ Before starting the Docker contianers, update `alertmanager/alertmanager.yml` an
 
 Start the Docker containers:
 
-    `docker-compose up -d`
+    docker-compose up -d
 
 ## Prometheus
 
