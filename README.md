@@ -7,9 +7,11 @@ Docker Compose file uses the following images:
 * [prom/alertmanager](https://hub.docker.com/r/prom/alertmanager)
 * [grafana/grafana](https://hub.docker.com/r/grafana/grafana)
 
-## Usage
+## Setup
 
-Before starting the Docker contianers, update `alertmanager/alertmanager.yml` and update line 4 with your PagerDuty integration key (see [Event Orchestration](https://support.pagerduty.com/docs/event-orchestration)).
+Open `alertmanager/alertmanager.yml` and update line 4 with your PagerDuty integration key (see [Event Orchestration](https://support.pagerduty.com/docs/event-orchestration)).
+
+## Usage
 
 Start the Docker containers:
 
